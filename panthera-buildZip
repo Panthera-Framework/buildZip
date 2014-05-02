@@ -92,6 +92,7 @@ class buildZip(pantheradesktop.kernel.pantheraClass):
 
 # initialize kernel
 kernel = pantheradesktop.kernel.pantheraDesktopApplication()
+kernel.appName = "panthera-buildZip"
 kernel.coreClasses['gui'] = None # disable gui
 kernel.coreClasses['argsparsing'] = buildZipArgs
 kernel.initialize(quiet=True)
