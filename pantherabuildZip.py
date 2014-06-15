@@ -32,7 +32,7 @@ class buildZipArgs (pantheradesktop.argsparsing.pantheraArgsParsing):
     def setBranch(self, branchName):
         """ Set git branch """
     
-        self.branch = "master"
+        self.branch = branchName
         
     def zipPathSet(self, path):
         """ Set zip save path """
